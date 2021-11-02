@@ -1,0 +1,518 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+   * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+   * Remove text-shadow in selection highlight:
+   * https://twitter.com/miketaylr/status/1222880530g1
+   *
+   * These selection rule sets have to be separate.
+   * Customize the background color to match your design.
+   */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+   * A better looking default horizontal rule
+   */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+a{
+  color:#495057 !important;
+}
+
+/*
+   * Remove the gap between audio, canvas, iframes,
+   * images, videos and the bottom of their containers:
+   * https://github.com/h5bp/html5-boilerplate/issues/440
+   */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+   * Remove default fieldset styles.
+   */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+   * Allow only vertical resizing of textareas.
+   */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+     Browser Upgrade Prompt
+     ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+     Author's custom styles
+     ========================================================================== */
+
+
+/* ==========================================================================
+     Helper classes
+     ========================================================================== */
+
+/*
+   * Hide visually and from screen readers
+   */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+   * Hide only visually, but have it available for screen readers:
+   * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+   */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+   * Extends the .visuallyhidden class to allow the element
+   * to be focusable when navigated to via the keyboard:
+   * https://www.drupal.org/node/897638
+   */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+   * Hide visually and from screen readers, but maintain layout
+   */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+   * Clearfix: contain floats
+   *
+   * For modern browsers
+   * 1. The space content is one way to avoid an Opera bug when the
+   *    `contenteditable` attribute is included anywhere else in the document.
+   *    Otherwise it causes space to appear at the top and bottom of elements
+   *    that receive the `clearfix` class.
+   * 2. The use of `table` rather than `block` is only necessary if using
+   *    `:before` to contain the top-margins of child elements.
+   */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.slick-slide {
+    outline: none
+}
+
+
+/* ==========================================================================
+     EXAMPLE Media Queries for Responsive Design.
+     These examples override the primary ('mobile first') styles.
+     Modify as content requires.
+     ========================================================================== */
+body,
+html {
+    height: 100%;
+}
+/*@font-face {
+  font-family: 'albra_sanslight';
+  src: url('albra-sans-light-webfont.woff2') format('woff2'),
+       url('albra-sans-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}*/
+
+
+
+
+/*@font-face {
+  font-family: 'octone_itcbold';
+  src: url('ocitcbos-webfont.woff2') format('woff2'),
+       url('ocitcbos-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}*/
+body {
+   /* font-size: 14px;*/
+    /*font-family: 'Barlow', sans-serif;*/
+   /* color: #58595b;
+    background: #0b093e;*/
+    background-size: 100%;
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+    margin: 0px;
+    padding: 0px;
+    /*overflow-x: hidden;*/
+  }
+
+* {
+    box-sizing: border-box;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+input,
+button {
+    outline: none;
+}
+
+label.select {
+    z-index: -1;
+    display: block;
+}
+
+.main-container {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+}
+.header{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.header img{
+  width: 100%;
+}
+
+.section-one{
+  width: 100%;
+  margin-top: 3vw;
+  padding: 0px;
+  position: relative;
+  background-color: #06044f;
+}
+
+.section-one .video-holder{
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+}
+.section-one .video-holder video {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.section-one .video-right-content p{
+  padding: 9vw 2vw;
+  font-size: 23px;
+  color: white;
+  color: #328dbc;
+  line-height: 37px;
+  word-spacing: 4px;
+  opacity: 0.8;
+}
+.section-one .video-right-content span{
+  font-weight: 600;
+  color: #cccdd9;
+  font-size: 30px;
+}
+.what-is-snus{
+  width: 100%;
+  margin:  0px auto;
+  padding: 0px;
+  background-color:#06044e;
+}
+.what-is-snus video{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.section-two{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  /*background: #0b093e;*/
+  background:#06044e;
+  text-align: center;
+}
+.section-two .video-holder{
+  width: 80%;
+  margin: 0px auto;
+  padding: 0px;
+  overflow: hidden;
+}
+.section-two .video-holder video{
+  width: 100%;
+  margin: 0px auto;
+  transform: scale(1.1);
+}
+.section-three{
+  width: 100%;
+  margin: 0px;
+  padding: 3vw 0vw 5vw;
+}
+.section-three h1{
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 3vw;
+  font-weight: 500;
+}
+.section-three h1 span{
+  color: #48c5ea;
+  margin: 0vw 1vw;
+  font-size: 55px;
+}
+.section-three form{
+  border: 4px solid #48c5ea;
+  background-color: white;
+  padding: 2vw 0.3vw 0vw;
+  border-radius: 30px;
+  text-align: center;
+}
+.section-three form label{
+  color: #405881;
+  font-size: 22px;
+}
+.section-three form input{
+  font-size: 18px;
+  background-color: #f0fcff;
+  margin: 2vw 0vw;
+  padding: 0.4vw 0.3vw;
+  border: 3px solid #48c5ea;
+  border-radius: 5px;
+}
+::placeholder{
+  color: #717374;
+}
+.section-three form select, option{
+  background-color: #f0fcff;
+  font-size: 16px;
+  padding: 0.45vw 2vw;
+  border: 3px solid #48c5ea;
+  border-radius: 5px;
+  color: #717374;
+}
+.section-three h4{
+  position: absolute;
+  top: 18%;
+  left: 77%;
+  font-size: 20px;
+  font-weight: 400;
+}
+.section-three h4 span{
+  color: #48c5ea;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 50px;
+}
+.section-three p{
+  background-color: #48c5ea;
+  color: white;
+  text-align: center;
+  margin-top: 2vw;
+  padding: 1vw;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-size: 25px;
+}
+
+.crowd-section img{
+  width: 100%;
+}
+
+.video-banner {
+  position: relative;
+}
+
+.video {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+.video:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  
+}
+.video video {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+@media (max-width: 576px){
+
+  .navbar-brand{
+    display: inline-block !important;
+    width: 50% !important;
+  }
+  .navbar .logo img{
+    width: 80%;
+  }
+  .navbar-toggler{
+    display: inline-block !important;
+    width: 32%;
+    left: 13% !important;
+  }
+  .navbar-collapse{
+    text-align: center;
+  }
+  .section-one .video-right-content p{
+    padding: 9vw 2vw;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .section-one .video-right-content span{
+    font-size: 15px;
+  }
+
+  .what-is-snus h4{
+    font-size: 18px;
+  }
+  .what-is-snus p{
+    font-size: 12px !important;
+    line-height: 25px;
+    padding-bottom: 4.3vw !important;
+  }
+
+  .crowd-section .crowd-btn {
+    top: 81% !important;
+    font-size: 10px !important;
+    height: 16px;
+    width: 90px;
+    padding-bottom: 14px;
+  }
+
+  .section-three h1{
+    font-size: 20px;
+    margin-bottom: 5vw;
+  }
+  .section-three h1 span{
+    margin: 0vw 1vw;
+    font-size: 35px;
+  }
+  .section-three form{
+    padding: 3vw 0.3vw 0vw;
+  }
+  .section-three form label{
+    font-size: 12px;
+  }
+  .section-three form input{
+    font-size: 10px;
+    margin: 2vw 0vw;
+    padding: 0.5vw 0vw;
+  }
+  .section-three form select, option{
+    font-size: 10px;
+    padding: 0.25vw 0.5vw;
+  }
+  ::placeholder{
+    font-size: 10px;
+  }
+  .section-three h4{
+    position: absolute;
+    top: 10%;
+    left: 77%;
+    font-size: 9px;
+  }
+  .section-three h4 span{
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .section-three p{
+    margin-top: 2vw;
+    padding: 1vw;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 12px;
+  }
+
+}
+
