@@ -325,3 +325,18 @@
       font-size: 12px;
       color: #acadad;
   }
+
+
+  @media only screen and (min-width: 767px) and (max-width: 1440px){
+    .video-text .video-right-content p{
+      padding: 9vw 3.8vw !important;
+      font-size: 21px;
+      line-height: 35px;
+    }
+    .video-text .video-right-content span{
+      font-size: 26px;
+    }
+    .sign-in form label{
+      font-size: 18px;
+    }
+  }
