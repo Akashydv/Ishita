@@ -1,0 +1,368 @@
+@media only screen  and (min-width : 1200px) and (max-width: 1279.98px){
+    
+    .menu .navbar-nav img{
+        width: 25px !important;
+        height: 30px !important;
+        margin-top: 10px;
+    }
+    .menu .navbar-nav #zero{
+        border: 1px solid #070748;
+        width: 10px !important;
+        height: 10px !important;
+        border-radius: 50%;
+        padding: 0.1vw;
+    }
+    .video-text{
+        background-color: #070748;
+        padding: 4vw 0vw;
+    }
+    .video-text video{
+        width: 100%;
+    }
+    .video-text .video-right-content p{
+        padding: 9vw 4.15vw;
+        font-size: 19px;
+        color: #3FBEE7;
+        line-height: 32px;
+        font-weight: 400;
+        opacity: 0.8;
+    }
+    .video-text .video-right-content span{
+        font-weight: 500;
+        color: #ffffff;
+        font-size: 22px;
+        letter-spacing: -0.01em;
+        line-height: 37px;
+    }
+    
+    
+    .text{
+        background-image: linear-gradient(#070748,#090645,#090645, #090645);
+        text-align: center;
+        color: white;
+        padding: 4vw 0vw;
+    }
+    .text h4{
+        font-size: 32px;
+        line-height: 32px;
+        font-weight: 500;
+        letter-spacing: -0.01em;
+        margin: 0;
+    }
+    .text p{
+        padding: 1.8vw 22vw 3vw;
+        font-size: 19px;
+        line-height: 32px;
+        word-spacing: 2px;
+    }
+    .text p span{
+        color: #7EEDFF;
+    }
+    
+    
+    .video{
+        background-color:rgba(236, 239, 240,1);
+    }
+    .video video{
+        width: 100%;
+    }
+    
+    
+    .items{
+        background-color: rgba(236, 239, 240,1);
+        padding: 5vw 0vw 7vw;
+        height: auto;
+    }
+    
+    .items .item-box{
+        border-right:0.75px solid #6D6E71;
+    }
+    .items .items-block .items-text{
+        text-align: left;
+        margin: 2vw 0vw 0vw;
+        height: auto;
+    }
+    .items .items-block .items-text h5{
+        color: #2a4278;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .items .items-block .items-text p{
+        color: #6D6E71;
+        padding: 0.25vw 1vw 0vw 0vw;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .items .items-block button{
+        background: none;
+        color: #6D6E71;
+        border: none;
+        font-size: 12px;
+        line-height: 26px;
+    }
+    
+    
+    .products{
+        padding: 5vw 0vw 1vw;
+    }
+    .products .product-blocks{
+        padding: 5vw 3vw 2vw;
+    }
+    .products img{
+        width: 300px;
+        height: 300px;
+    }
+    .products .progress-bar, .progress{
+        height: 4px !important;
+        border-radius: 6px;
+    }
+    .products .progress{
+        background: none;
+    }
+    .products h4{
+        color: #073582;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 1.2vw;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .products p{
+        margin: 3px 0px;
+        line-height: 22px;
+        font-size: 13px;
+        font-weight: 500;
+        color:#6D6E71;
+    }
+    .products .right-product span{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 24px;
+        float: right;
+        color: #6D6E71;
+        margin-top:10px
+    }
+    .products .product-text-box{
+        padding: 1.2vw 0vw;
+    }
+    .products .product-text-box .row{
+        padding-bottom: 0.55vw;
+    }
+    .products .product-btns{
+        padding: 4vw 0vw 3vw;
+    }
+    .products .product-btns a{
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+        padding: 0.5vw 1.5vw;
+        font-size: 13px;
+        font-weight: 600;
+        margin: 0vw 0.68vw;
+    }
+    
+    .sign-in{
+        padding: 7vw 0vw 9vw;
+        background-color: #070748;
+    }
+    .sign-in h1{
+        text-align: center;
+        color: white;
+        font-size: 35px;
+        margin-bottom: 1vw;
+        font-weight: 500;
+        line-height: 69px;
+        font-family: dinpro !important;
+      }
+      .sign-in h1 span{
+        padding: 0vw 0.5vw;
+      }
+      .sign-in form{
+        border: 4px solid #48c5ea;
+        background-color: white;
+        padding: 2vw 0.1vw 0vw;
+        border-radius: 30px;
+      }
+      .sign-in form label{
+        color: #405881;
+        font-size: 23px;
+        float: right;
+        font-weight: 500;
+        line-height: 45px;
+      }
+      .sign-in form select{
+        width: 210px;
+        float: right;
+        border: 1px solid #093987;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: '';
+        color: #717374;
+        opacity: 0.8;
+      }
+      .sign-in form select, option{
+        background-color: #EEFBFF;
+        font-size: 23px;
+        color: #717374;
+      }
+      .sign-in form option{
+        padding: 1vw 0vw !important;
+      }
+      .sign-in p{
+        font-family: dinpro !important;
+        position: relative;
+        top: 15%;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 25px;
+      }
+      .sign-in p span{
+        color: #011559;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 49.72px;
+        text-align: center;
+        font-family: dinpro !important;
+      }
+      .sign-in #savings{
+        background: #3FBEE7;
+        border-radius: 0px 0px 24px 24px;
+        color: white;
+        text-align: center;
+        margin-top: 2vw;
+        padding: 0.5vw;
+        font-size: 30px;
+        margin-bottom: 0.1vw;
+        font-weight: 700;
+        font-family: dinpro;
+      }
+      .sign-in #savings span{
+          font-size: 35px;
+          font-weight: 400;
+          font-family: dinpro !important;
+          text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
+          color: white !important;
+      }
+    
+    
+      .banner-image img{
+          width: 100%;
+          height: auto;
+      }
+      .banner-image a{
+          font-family: dinpro !important;
+          position: absolute;
+          background: #073582;
+          border: 2px solid #3FBEE7;
+          border-radius: 30px;
+          color: white;
+          font-size: 15px;
+          text-decoration: none;
+          left: 45%;
+          margin-top: 32.8%;
+          padding: 0.5vw 2.3vw;
+          font-weight: bold;
+      }
+    
+    
+      .tobacco{
+          padding: 5vw 0vw 6vw;
+          background-color: rgba(236, 239, 240, 1);
+      }
+      .tobacco h3{
+          color: #073582;
+          font-weight: 700;
+          font-size: 34px;
+          line-height: 40px;
+      }
+      .tobacco img{
+          width: 340px;
+      }
+      .tobacco h2{
+          font-size: 36px;
+          font-weight: 400;
+          color: #3FBEE7;
+      }
+      .tobacco p{
+          color: #595A5C;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+      }
+      .tobacco input[type="text"]{
+          width: 31%;
+          margin-top: 2.5vw;
+          font-size: 16px;
+          background: none;
+          border: none;
+          border-bottom: 1px solid #000000;
+      }
+      ::placeholder {
+          color:#bbbbbb;
+      }
+      .tobacco input[type="submit"]{
+        background: none;
+        border: none;
+        border-bottom: 1px solid #000000;
+        margin-left: -0.3vw;
+        font-weight: 500;
+        font-size: 16px;
+        color: #595A5C;
+      }
+    
+    
+    
+      .footer{
+          color: #6D6E71;
+            padding: 1.2vw 0vw 2vw;
+      }
+      .footer img{
+          width: 200px;
+          height: 80px;
+      }
+      .footer .footer-left h5{
+        font-weight: 500;
+        font-size: 13px;
+        padding-left: 1vw;
+        line-height: 21px;
+        margin-bottom: 0;
+    
+      }
+      .footer .footer-left table, tr, th{
+          border: 1px solid #c4c4c4 !important;
+          padding: 0.3vw;
+          border-collapse: collapse;
+          font-size: 13px;
+          padding: 0.3vw 3vw 0.3vw 1.2vw;
+          font-weight: 500;
+          line-height: 21px;
+      }
+      .footer .footer-right ul{
+          margin-top: 1.2vw;
+      }
+      .footer .footer-right ul li{
+          list-style: none;
+          padding-left: 20vw;
+          padding-bottom: 0.8vw;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 17px;
+      }
+      .footer .copyright p{
+          margin: 0;
+          margin-top: 1vw;
+          line-height: 15px;
+          font-weight: 400;
+          font-size: 10px;
+          color: #6D6E71;
+      }
+}
+
+  

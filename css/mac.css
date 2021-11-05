@@ -1,0 +1,206 @@
+@media only screen and (min-width: 1340px) and (max-width: 1919.98px){
+    .menu .navbar a img{
+        width: 150px;
+        height: 58px;
+    }
+    .menu .navbar a i{
+        color: #093987;
+        font-size: 23px;
+    }
+    .menu .navbar-nav img{
+        width: 28px !important;
+        height: 33px !important;
+        margin-top: 10px;
+    }
+    .menu .navbar-nav #zero{
+        border: 1px solid #070748;
+        width: 10px !important;
+        height: 10px !important;
+        border-radius: 50%;
+        padding: 0.1vw;
+    }
+    .menu .dropdown-toggle::after {
+        content: none !important;
+    }
+    .menu .dropdown-item{
+        padding: 0.5vw 1vw ;
+        font-size: 15px !important;
+    }
+    
+    .video-text .video-right-content p{
+        padding: 9vw 4vw;
+        font-size: 21px;
+        color: #3FBEE7;
+        line-height: 36px;
+        font-weight: 400;
+        opacity: 0.8;
+    }
+    .video-text .video-right-content span{
+        font-weight: 500;
+        color: #ffffff;
+        font-size: 25px;
+        letter-spacing: -0.01em;
+        line-height: 43px;
+    }
+    
+    
+    .text{
+        background-image: linear-gradient(#070748,#090645,#090645, #090645);
+        text-align: center;
+        color: white;
+        padding: 6vw 0vw 5vw;
+    }
+    .text h4{
+        font-size: 32px;
+        line-height: 38px;
+        font-weight: 500;
+        letter-spacing: -0.01em;
+        margin: 0;
+    }
+    .text p{
+        padding: 1.8vw 21.5vw 3vw;
+        font-size: 21px;
+        line-height: 35px;
+        word-spacing: 2px;
+    }
+    .text p span{
+        color: #7EEDFF;
+    }
+    
+    
+    .items{
+        background-color: rgba(236, 239, 240,1);
+        padding: 5vw 0vw 7vw;
+        height: auto;
+    }
+    
+    .items .item-box{
+        border-right:0.75px solid #6D6E71;
+    }
+    .items .items-block .items-text{
+        text-align: left;
+        margin: 2vw 0vw 0vw;
+        height: auto;
+    }
+    .items .items-block .items-text h5{
+        color: #2a4278;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .items .items-block .items-text p{
+        color: #6D6E71;
+        padding: 0.25vw 1.2vw 0vw 0vw;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .items .items-block button{
+        background: none;
+        color: #6D6E71;
+        border: none;
+        font-size: 13px;
+        line-height: 26px;
+    }
+    .products{
+        padding: 5vw 0vw 1vw;
+    }
+    .products .product-blocks{
+        padding: 5vw 3vw 2vw;
+    }
+    .products img{
+        width: 300px;
+        height: 300px;
+    }
+    .products .progress-bar, .progress{
+        height: 5px !important;
+        border-radius: 6px;
+    }
+    .products .progress{
+        background: none;
+    }
+    .products h4{
+        color: #073582;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 1.2vw;
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .products p{
+        margin: 3px 0px;
+        line-height: 22px;
+        font-size: 15px;
+        font-weight: 500;
+        color:#6D6E71;
+    }
+    .products .right-product span{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        float: right;
+        margin-top: 10px;
+        color: #6D6E71;
+    }
+    .products .product-text-box{
+        padding: 1.2vw 0vw;
+    }
+    .products .product-text-box .row{
+        padding-bottom: 0.55vw;
+    }
+    .products .product-btns{
+        padding: 4vw 0vw 3vw;
+    }
+    .products .product-btns a{
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+        padding: 0.5vw 1.5vw;
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0vw 0.68vw;
+    }
+    .sign-in h1 span{
+        padding: 0vw 0.5vw;
+      }
+      .sign-in #savings{
+        background: #3FBEE7;
+        border-radius: 0px 0px 24px 24px;
+        color: white;
+        text-align: center;
+        margin-top: 2vw;
+        padding: 0.5vw;
+        font-size: 30px;
+        margin-bottom: 0.1vw;
+        font-weight: 700;
+        font-family: dinpro;
+      }
+      .banner-image img{
+          width: 100%;
+          height: auto;
+      }
+      .banner-image a{
+          font-family: dinpro !important;
+          position: absolute;
+          background: #073582;
+          border: 2px solid #3FBEE7;
+          border-radius: 30px;
+          color: white;
+          font-size: 15px;
+          text-decoration: none;
+          left: 45%;
+          margin-top: 32.8%;
+          padding: 0.5vw 2.3vw;
+          font-weight: bold;
+      }
+      .tobacco input[type="submit"]{
+        margin-left: -0.25vw;
+        font-weight: 500;
+        font-size: 16px;
+      }
+    
+      .footer img{
+          width: 200px;
+          height: 75px;
+      }
+  }
