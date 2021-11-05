@@ -59,7 +59,7 @@
 .video-text .video-right-content span{
     font-weight: 500;
     color: #ffffff;
-    font-size: 28px;
+    font-size: 29px;
     letter-spacing: -0.01em;
     line-height: 45px;
 }
@@ -727,7 +727,7 @@
           color: #6D6E71;
       }
   }
-*/
+
   @media only screen and (min-width: 1339.9px){
     .menu .navbar a img{
         width: 150px;
@@ -845,7 +845,7 @@
           height: 75px;
       }
   }
-
+*/
   @media screen and (min-width: 1919.9px){
     .menu .navbar a{
         font-size: 18px;
