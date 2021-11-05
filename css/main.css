@@ -390,7 +390,7 @@
       font-size: 13px;
       color: #6D6E71;
   }
-
+/*
   @media only screen and (min-width: 1024px) {
     
     .menu .navbar a img{
@@ -727,7 +727,7 @@
           color: #6D6E71;
       }
   }
-
+*/
   @media only screen and (min-width: 1339.9px){
     .menu .navbar a img{
         width: 150px;
