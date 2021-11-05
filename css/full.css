@@ -1,5 +1,12 @@
 
-
+@media screen and (min-width: 1974px){
+    .items .items-block .items-text p{
+        padding: 0.25vw 2vw 0vw 0vw;
+        font-weight: 400;
+        font-size: 19px !important;
+        line-height: 26px;
+    }
+}
   @media screen and (min-width: 1920px){
     .menu .navbar a{
         font-size: 18px;

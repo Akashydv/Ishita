@@ -1,29 +1,10 @@
 
-.u-fade-type-left{
-    transform: translateX(-200px);
-    opacity: 0;
-}
-
-.u-fade-type-left.is-active{
-    transition: 2s;
-    transform: translateX(0);
-    opacity: 1;
-}
-.u-fade-type-right{
-    transform: translateX(200px);
-    opacity: 0;
-}
-.u-fade-type-right.is-active{
-    transition: 2s;
-    transform: translateX(0);
-    opacity: 1;
-}
 .u-fade-type-down{
-    transform: translateY(250px);
+    transform: translateY(220px);
     opacity: 0;
 }
 .u-fade-type-down.is-active{
-    transition: 3s;
+    transition: 2.3s;
     transform: translateY(0);
     opacity: 1;
 }
