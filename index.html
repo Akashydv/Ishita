@@ -6,6 +6,11 @@
     <title>Coollip</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/common.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/full.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/mac.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/lap.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/macc.css'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +22,7 @@
     
     <script src="https://use.fontawesome.com/364aedcfe8.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
 </head>
 <body>
@@ -33,7 +38,7 @@
                     <ul class="navbar-nav ml-auto">
                       <li class="nav-item mx-3 dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa fa-bars" aria-hidden="true"></i>
+                            <img src="images/Group 846.svg">
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                           <li><a class="dropdown-item" href="#">About Us</a></li>                          
@@ -41,10 +46,10 @@
                         </ul>
                       </li>
                       <li class="nav-item mx-3">
-                        <a class="nav-link" href="#"><i class="fa fa-shopping-cart fa-flip-horizontal"></i></a>
+                        <a class="nav-link" href="#"><img src="images/Vector.svg"><img id= "zero" src="images/0.svg"></a>
                       </li>
                       <li class="nav-item mx-3">
-                        <a class="nav-link" href="#" style="color: #065AB6 !important; font-size: 16px; font-weight: 600">Sign In</a>
+                        <a class="nav-link" href="#" style="color: #065AB6 !important; font-size: 16px; font-weight: 600; margin-top: 1vw;">Sign In</a>
                       </li>
                     </ul>
                   </div>
@@ -66,7 +71,7 @@
                             <source src="images/coollip_rotationvideo.mp4" type="video/mp4">
                         </video>
                     </div>
-                    <div class="col-12 col-lg-5 video-right-content">
+                    <div class="col-12 col-lg-5 video-right-content mv_fade_in u-fade-type-down js-scroll-trigger">
                         <p>
                             Enjoy this innovative side of refined taste that brings together convenience and an exotic Tobacco experience from<br><br>
                             <span>India's Leading Manufacturer of Premium Quality Smokeless Tobacco and Snus</span> 
@@ -77,8 +82,10 @@
         </section>
 
         <section class="text">
-            <h4 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="2000">What is Snus?</h4>
-            <p data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="2000">Snus- A moist, smokeless, finely ground tobacco product-originated in Sweden about 200 year ago is now used worldwide. Get the kick of tabaq without it being an inconvience for others! Spit-free and smokeless, CoolLip could be a cool alternative to smoking. No morea mischie from cigarettes, no exposure to passive smoking: <span>Just a fresh, lingering after taste.</span></p>
+            <div class="mv_fade_in u-fade-type-down js-scroll-trigger">
+                <h4>What is Snus?</h4>
+                <p>Snus- A moist, smokeless, finely ground tobacco product-originated in Sweden about 200 year ago is now used worldwide. Get the kick of tabaq without it being an inconvience for others! Spit-free and smokeless, CoolLip could be a cool alternative to smoking. No morea mischie from cigarettes, no exposure to passive smoking: <span>Just a fresh, lingering after taste.</span></p>
+            </div>
         </section>
 
         <section class="video">
@@ -91,51 +98,51 @@
             <div class="col-12 col-lg-9 mx-auto">
                 <div class="row">
                     <div class="col-12 col-lg-3 items-block">
-                        <div class="col-12">
-                            <img src="images/icons/packaging01.png" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" >
+                        <div class="col-12 mv_fade_in u-fade-type-left js-scroll-trigger">
+                            <img src="images/icons/packaging01.png">
                             <div class="item-box">
                                 <div class="items-text">
-                                    <h5 data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" >PACKAGING</h5>
-                                    <p data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" >One Pouch has it all - Passion, Youth & Love.<span id="more1" class="collapse multi-collapse">Every sachet is carefully packed to make sure it delivers the right punch. Selection of tobacco to selection of machines to the way we store our tobacco - all goes inside the small little pouches!</span></p>
+                                    <h5>PACKAGING</h5>
+                                    <p>One Pouch has it all - Passion, Youth & Love.<span id="more1" class="collapse multi-collapse">Every sachet is carefully packed to make sure it delivers the right punch. Selection of tobacco to selection of machines to the way we store our tobacco - all goes inside the small little pouches!</span></p>
                                 </div>
-                                <button type="button" id="read-more-btn" data-bs-toggle="collapse" data-bs-target="#more1" aria-expanded="false" aria-controls="more1" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" ><br><br>Read More ></button>
+                                <button type="button" id="read-more-btn" data-bs-toggle="collapse" data-bs-target="#more1" aria-expanded="false" aria-controls="more1"><br><br>Read More ></button>
                             </div>                            
                         </div>
                     </div>
                     <div class="col-12 col-lg-3 items-block">
-                        <div class="col-12">
-                            <img src="images/icons/quality01.png" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" >
+                        <div class="col-12 mv_fade_in u-fade-type-left js-scroll-trigger">
+                            <img src="images/icons/quality01.png">
                             <div class="item-box">
                                 <div class="items-text">
-                                    <h5 data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" >QUALITY</h5>
-                                    <p data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" >Careful work process makes an excellent quality product made from finest ingredients.<span id="more2" class="collapse multi-collapse">From raw tobacco to dispatch, each work flow is designed to achieve to highest quality standard available.</span>
+                                    <h5>QUALITY</h5>
+                                    <p>Careful work process makes an excellent quality product made from finest ingredients.<span id="more2" class="collapse multi-collapse">From raw tobacco to dispatch, each work flow is designed to achieve to highest quality standard available.</span>
                                     </p>                                
                                 </div>
-                                <button type="button" id="read-more-btn" data-bs-toggle="collapse" data-bs-target="#more2" aria-expanded="false" aria-controls="more2" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" ><br>Read More ></button>
+                                <button type="button" id="read-more-btn" data-bs-toggle="collapse" data-bs-target="#more2" aria-expanded="false" aria-controls="more2"><br>Read More ></button>
                             </div>                            
                         </div>
                     </div>
                     <div class="col-12 col-lg-3 items-block">
-                        <div class="col-12">
-                            <img src="images/icons/blending01.png" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" >
+                        <div class="col-12 mv_fade_in u-fade-type-left js-scroll-trigger">
+                            <img src="images/icons/blending01.png">
                             <div class="item-box">
                                 <div class="items-text">
-                                    <h5 data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" >BLENDING</h5>
-                                    <p data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" >Our morning Tea is also different every day! but COOL LIP? No! Why? Answer - A world class blending System!<span id="more3" class="collapse multi-collapse">Blending is the heart of Cool Lip. The recipe was developed by extensive Research involving our chemist tours to different parts of the world. We studied 100s of different smokeless tobacco worldwide. Cool Lip is a blend of Indian tobacco heritage with modern outlook of the west!</span></p>    
+                                    <h5>BLENDING</h5>
+                                    <p>Our morning Tea is also different every day! but COOL LIP? No! Why? Answer - A world class blending System!<span id="more3" class="collapse multi-collapse">Blending is the heart of Cool Lip. The recipe was developed by extensive Research involving our chemist tours to different parts of the world. We studied 100s of different smokeless tobacco worldwide. Cool Lip is a blend of Indian tobacco heritage with modern outlook of the west!</span></p>    
                                 </div>
-                                <button type="button" id="read-more-btn" data-bs-toggle="collapse" data-bs-target="#more3" aria-expanded="false" aria-controls="more3" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" >Read More ></button>
+                                <button type="button" id="read-more-btn" data-bs-toggle="collapse" data-bs-target="#more3" aria-expanded="false" aria-controls="more3">Read More ></button>
                             </div>                            
                         </div>
                     </div>
                     <div class="col-12 col-lg-3 items-block">
-                        <div class="col-12">
-                            <img src="images/icons/automation01.png" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" >
+                        <div class="col-12 mv_fade_in u-fade-type-left js-scroll-trigger">
+                            <img src="images/icons/automation01.png">
                             <div class="item-box" style="border-right: 0px solid #cfc7c0;">
                                 <div class="items-text">
-                                    <h5 data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" >AUTOMATION</h5>
-                                    <p data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" >The state of the art German & japanese Checkweighers make sure that each pouch weigh exactly the same.<span id="more4" class="collapse multi-collapse">Do you know every pouch is weighed before it is put in the Boxes to be shipped Even with world class machines, there is always a room for error. To counter that, each filled pouch gets weighed in the air itself before it falls into its secondary packet.</span></p> 
+                                    <h5>AUTOMATION</h5>
+                                    <p >The state of the art German & japanese Checkweighers make sure that each pouch weigh exactly the same.<span id="more4" class="collapse multi-collapse">Do you know every pouch is weighed before it is put in the Boxes to be shipped Even with world class machines, there is always a room for error. To counter that, each filled pouch gets weighed in the air itself before it falls into its secondary packet.</span></p> 
                                 </div>
-                                <button type="button" id="read-more-btn" data-bs-toggle="collapse" data-bs-target="#more4" aria-expanded="false" aria-controls="more4" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" >Read More ></button>
+                                <button type="button" id="read-more-btn" data-bs-toggle="collapse" data-bs-target="#more4" aria-expanded="false" aria-controls="more4">Read More ></button>
                             </div>
                         </div>
                     </div>
@@ -147,45 +154,45 @@
             <div class="col-12 col-lg-9 mx-auto">
                 <div class="row">
                     <div class="col-12 col-lg-6 product-blocks">
-                        <div class="text-center product-image-box">
-                            <img src="images/Cool_Lip_Filter_Box.png" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" data-aos-delay="100">
+                        <div class="text-center product-image-box mv_fade_in u-fade-type-left js-scroll-trigger">
+                            <img src="images/Cool_Lip_Filter_Box.png">
                         </div>
                         <div class="product-text-box">
                             <h4>Cool Lip Filter Tobacco</h4>
                             <div class="row">
                                 <div class="col-8">
                                     <p>Cool Lip Filter Tobacco Weight</p>
-                                    <div class="progress progress1">
-                                        <div class="progress-bar" role="progressbar" style="width: 90%; background-color:#073582" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%; background-color: #073582;" data-aos="fade-right" data-aos-delay="10" data-aos-duration="3000"></div>
+                                      </div>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-4 right-product">
                                     <span>10 g each</span>
                                 </div>
                             </div>                            
                             <div class="row">
                                 <div class="col-8">
                                     <p>Per pouch</p>
-                                    <div class="progress progress2">
-                                        <div class="progress-bar" role="progressbar" style="width: 82%; background-color:#3FBEE7" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 78%; background-color: #3FBEE7;" data-aos="fade-right" data-aos-delay="10" data-aos-duration="3000"></div>
+                                      </div>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-4 right-product">
                                     <span>10 g</span>
                                 </div>
                             </div>                              
                               <div class="row">
                                 <div class="col-8">
                                     <p>Pack of</p>
-                                    <div class="progress progress3">
-                                        <div class="progress-bar" role="progressbar" style="width: 58%; background-color: #a6b9da;" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 55%; background-color: #c1c7cb;" data-aos="fade-right" data-aos-delay="10" data-aos-duration="3000"></div>
+                                      </div>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-4 right-product">
                                     <span>10-12 pouches</span>
                                 </div>
                             </div>
-                            <div class="text-center product-btns">
+                            <div class="text-center product-btns mv_fade_in u-fade-type-left js-scroll-trigger">
                                 <a href="#" style="background-color: #073582;">Know More</a>
                                 <a href="#" class="bg-info">Buy Now</a>
                             </div>
@@ -193,45 +200,45 @@
                         
                     </div>
                     <div class="col-12 col-lg-6 product-blocks">
-                        <div class="text-center product-image-box">
-                            <img src="images/Cool_Lip_Draco_Box_angle01.png" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" data-aos-delay="100">
+                        <div class="text-center product-image-box mv_fade_in u-fade-type-right js-scroll-trigger">
+                            <img src="images/Cool_Lip_Draco_Box_angle01.png">
                         </div>
                         <div class="product-text-box">
                             <h4>Cool Lip Draco Filter Tobacco</h4>
                             <div class="row">
                                 <div class="col-8">
                                     <p>Cool Lip Filter Tobacco Weight</p>
-                                    <div class="progress progress4">
-                                        <div class="progress-bar" role="progressbar" style="width: 95%; background-color:#073582" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #073582;" data-aos="fade-right" data-aos-delay="10" data-aos-duration="3000"></div>
+                                      </div>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-4 right-product">
                                     <span>10.5 g each</span>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-8">
                                     <p>Per pouch</p>
-                                    <div class="progress progress5">
-                                        <div class="progress-bar" role="progressbar" style="width: 88%; background-color:#3FBEE7" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 78%; background-color: #3FBEE7;" data-aos="fade-right" data-aos-delay="10" data-aos-duration="3000"></div>
+                                      </div>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-4 right-product">
                                     <span>84 g</span>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-8">
                                     <p>Pack of</p>
-                                    <div class="progress progress6">
-                                        <div class="progress-bar" role="progressbar" style="width: 72%; background-color: #a6b9da;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 58%; background-color: #c1c7cb;" data-aos="fade-right" data-aos-delay="10" data-aos-duration="3000"></div>
+                                      </div>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-4 right-product">
                                     <span>8 pouches</span>
                                 </div>
                             </div>
-                            <div class="text-center product-btns">
+                            <div class="text-center product-btns mv_fade_in u-fade-type-right js-scroll-trigger">
                                 <a href="#" style="background-color: #073582;">Know More</a>
                                 <a href="#" class="bg-info">Buy Now</a>
                             </div>
@@ -242,8 +249,8 @@
         </section>
 
         <section class="sign-in">
-            <div class="container" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in" data-aos-delay="100">
-                <h1><span>&#9886;</span> Sign in offer <span>&#9887;</span></h1>
+            <div class="container mv_fade_in u-fade-type-up js-scroll-trigger">
+                <h1><span><img src="images/Group 868.png"></span> Sign in offer <span><img src="images/Group 866.png"></span></h1>
                   <div class="col-12 col-lg-6 mx-auto">
                   <form>
                       <div class="row">
@@ -288,13 +295,15 @@
         </section>
 
         <section class="text-center tobacco">
-            <h3 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300" data-aos-delay="200">Why ask for tabbaq?</h3>
-            <h3 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300" data-aos-delay="200">When you can ask for Cool Lip.</h3>
-            <img src="images/coollip-small-box.png">
-            <h2>Join the Cool List</h2>
-            <p>Sign up to be the first to know about<br>special offers & upcoming experiences</p>
-            <input type="text" placeholder="Your email address">
-            <input type="submit" value="send">
+            <div class="mv_fade_in u-fade-type-down js-scroll-trigger">
+                <h3>Why ask for tabbaq?</h3>
+                <h3>When you can ask for Cool Lip.</h3>
+                <img src="images/coollip-small-box.png">
+                <h2>Join the Cool List</h2>
+                <p>Sign up to be the first to know about<br>special offers & upcoming experiences</p>
+                <input type="text" placeholder="Your email address">
+                <input type="submit" value="send">
+            </div>
         </section>
 
         <section class="footer">
@@ -365,7 +374,9 @@ window.addEventListener('scroll', checkScroll, false);
 window.addEventListener('resize', checkScroll, false);
 </script>
 
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="js/progressbar.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src='js/fade.js'></script>
 </body>
 </html>
