@@ -11,78 +11,6 @@
     font-family: rupee;
     src: url(../font/Rupee_Foradian.ttf);
 }
-.progress1{
-    animation: progressBar1 3s ease-out 1 !important;;
-    animation-fill-mode:both;
-}
-.progress2{
-    animation: progressBar2 3s ease-out 1 !important;
-    animation-fill-mode:both;
-}
-.progress3{
-    animation: progressBar3 3s ease-out 1 !important;
-    animation-fill-mode:both;
-}
-.progress4{
-    animation: progressBar4 3s ease-out 1 !important;
-    animation-fill-mode:both;
-}
-.progress5{
-    animation: progressBar5 3s ease-out 1 !important;
-    animation-fill-mode:both;
-}
-.progress6{
-    animation: progressBar6 3s ease-out 1 !important;
-    animation-fill-mode:both;
-}
-@keyframes progressBar1 {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 90%;
-    }
-}
-@keyframes progressBar2 {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 82%;
-    }
-}
-@keyframes progressBar3 {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 58%;
-    }
-}
-@keyframes progressBar4 {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 95%;
-    }
-}
-@keyframes progressBar5 {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 88%;
-    }
-}
-@keyframes progressBar6 {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 72%;
-    }
-}
 
 .menu .navbar a{
     font-size: 18px;
@@ -215,12 +143,12 @@
     width: 490px;
     height: 471px;
 }
-.products .progress-bar, .progress{
+.products .progress{
     height: 4px !important;
     border-radius: 6px;
 }
-.products .progress{
-    background: none;
+.products .progress .perc{
+    display: none;
 }
 .products h4{
     color: #073582;
