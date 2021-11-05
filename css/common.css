@@ -23,7 +23,7 @@
     opacity: 0;
 }
 .u-fade-type-down.is-active{
-    transition: 2s;
+    transition: 3s;
     transform: translateY(0);
     opacity: 1;
 }
