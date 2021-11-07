@@ -12,6 +12,10 @@
     src: url(../font/Rupee_Foradian.ttf);
 }
 
+.mix{
+  mix-blend-mode: lighten;
+}
+
 .menu .navbar a{
     font-size: 18px;
     color: #093987 !important;
