@@ -1,4 +1,9 @@
 @media only screen and (min-width: 375px) and (max-width: 424.98px){
+    *{
+        margin:0;
+        padding: 0;
+        overflow-x: hidden;
+    }
     .menu .navbar-brand img{
         width: 90px;
         height: 40px;
@@ -39,6 +44,14 @@
     }
 }
 @media only screen and (max-width: 575.98px){
+    *{
+        margin:0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .menu .container-fluid{
+        margin: 0 !important;
+    }
     .menu .navbar-toggler{
         padding: 0.05em 0.65em !important;
     }
@@ -125,6 +138,7 @@
         font-size: 16px;
         line-height: 27px;
         word-spacing: 2px;
+        text-align: justify !important;
     }
     .text p span{
         color: #7EEDFF;
@@ -169,7 +183,7 @@
     }
     .items .items-block .items-text p{
         color: #6D6E71;
-        padding: 0vw 6vw 0vw;
+        padding: 0vw 10vw 0vw;
         font-weight: 400;
         font-size: 13px;
         line-height: 18px;
@@ -273,7 +287,7 @@
         line-height: 35px;
       }
       .sign-in form select{
-        width: 35vw;
+        width: 34vw;
         float: right;
         margin-top: 2vw;
         border: 1px solid #093987;
@@ -320,7 +334,7 @@
         margin-top: 2vw;
         padding: 2vw 0vw;
         font-size: 20px;
-        margin-bottom: 0.1vw;
+        margin-bottom: 0.2vw;
         font-weight: 700;
         font-family: dinpro;
       }
@@ -335,7 +349,8 @@
     
       .banner-image img{
           width: 100%;
-          height: 170px;
+          height: auto;
+          
       }
       .banner-image a{
           font-family: dinpro !important;
@@ -347,7 +362,7 @@
           font-size: 8px;
           text-decoration: none;
           left: 41%;
-          margin-top: 45%;
+          margin-top: 160%;
           padding: 0.5vw 2.3vw;
           font-weight: bold;
       }

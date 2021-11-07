@@ -15,7 +15,10 @@
 .mix{
   mix-blend-mode: lighten;
 }
-
+.menu .navbar{
+    padding: 0;
+    margin: 0;
+}
 .menu .navbar a{
     font-size: 18px;
     color: #093987 !important;

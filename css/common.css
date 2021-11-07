@@ -7,24 +7,19 @@
     animation: bounce 3s alternate;
 }
 .is-progress{
-    animation: progress 5s linear;
+    animation: progress 2s linear;
 }
 @keyframes progress {
     0%{
-        width: 0%;
+        width: 100%;
     }
     25%{
-        width: 25%;
+        width: 100%;
     }
     50%{
         width: 50%;
     }
-    75%{
-        width: 75%;
-    }
-    100%{
-        width: 100%;
-    }
+    
 }
 
 @keyframes bounce {
