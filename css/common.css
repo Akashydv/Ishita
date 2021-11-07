@@ -4,7 +4,7 @@
 }
 .u-fade-type-down.is-active{
     opacity: 1;
-    animation: bounce 3s alternate;
+    animation: bounce 2.3s alternate;
 }
 .is-progress{
     animation: progress 2s linear;

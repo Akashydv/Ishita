@@ -104,7 +104,7 @@
         width: 100%;
     }
     .video-text .video-right-content p{
-        padding: 9vw 4.15vw;
+        padding: 9vw 8vw;
         font-size: 18px;
         color: #3FBEE7;
         line-height: 28px;
@@ -284,10 +284,10 @@
         font-size: 12px;
         float: right;
         font-weight: 500;
-        line-height: 35px;
+        line-height: 30px;
       }
       .sign-in form select{
-        width: 34vw;
+        width: 35.4vw;
         float: right;
         margin-top: 2vw;
         border: 1px solid #093987;
@@ -309,11 +309,14 @@
       .sign-in form option{
         padding: 1vw 0vw !important;
       }
+      .sign-in .total{
+          left: -10px !important;
+      }
       .sign-in p{
         font-family: dinpro !important;
         position: relative;
         top: 20%;
-        font-size: 10px;
+        font-size: 9px;
         font-weight: 300;
         text-align: center;
         text-transform: uppercase;
@@ -321,7 +324,7 @@
       }
       .sign-in p span{
         color: #011559;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 500;
         line-height: 15px;
         text-align: center;
@@ -333,13 +336,13 @@
         text-align: center;
         margin-top: 2vw;
         padding: 2vw 0vw;
-        font-size: 20px;
+        font-size: 19.5px;
         margin-bottom: 0.2vw;
         font-weight: 700;
         font-family: dinpro;
       }
       .sign-in #savings span{
-          font-size: 24px;
+          font-size: 23.5px;
           font-weight: 400;
           font-family: dinpro !important;
           text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
@@ -362,7 +365,7 @@
           font-size: 8px;
           text-decoration: none;
           left: 41%;
-          margin-top: 160%;
+          margin-top: 65%;
           padding: 0.5vw 2.3vw;
           font-weight: bold;
       }
