@@ -30,7 +30,7 @@
 <body>
     <div class="homepage">
         <section class="menu">
-            <nav class="p-0 m-0 navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid" style="margin: 0vw 3vw 0vw 6vw">
                   <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +47,7 @@
                           <li><a class="dropdown-item" href="#">Contact Us</a></li>
                         </ul>
                       </li>
-                      <li class="nav-item mx-3">
+                      <li class="nav-item mx-3 d-none d-lg-block d-xl-block">
                         <a class="nav-link" href="#"><img src="images/Vector.svg"><img id= "zero" src="images/0.svg"></a>
                       </li>
                       <li class="nav-item mx-3">
@@ -58,19 +58,30 @@
                 </div>
               </nav>
         </section>
-
-        <section class="p-0 m-0 banner">
+        <!-- LAPTOP VIEW -->
+        <section class="d-none d-lg-block p-0 m-0 banner">
             <video autoplay muted>
                 <source src="images/banner.mp4" type="video/mp4">
+            </video>
+        </section>
+        <!-- MOBILE VIEW -->
+        <section class="d-block d-sm-none p-0 m-0 banner">
+            <video autoplay muted>
+                <source src="images/mobile_banner.mp4" type="video/mp4">
             </video>
         </section>
 
         <section class="video-text">
             <div class="col-12 col-lg-10 mx-auto">
                 <div class="row">
-                    <div class="col-12 col-lg-7 mix">
+                    <div class="d-none d-lg-block col-12 col-lg-7 mix">
                         <video autoplay muted>
                             <source src="images/black-bg/coollip_rotationvideo.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="d-block d-sm-none col-12 mix">
+                        <video autoplay muted>
+                            <source src="images/mobile_rotation_blue.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="col-12 col-lg-5 video-right-content mv_fade_in u-fade-type-down js-scroll-trigger">
@@ -89,17 +100,24 @@
                 <p>Snus- A moist, smokeless, finely ground tobacco product-originated in Sweden about 200 year ago is now used worldwide. Get the kick of tabaq without it being an inconvience for others! Spit-free and smokeless, CoolLip could be a cool alternative to smoking. No morea mischie from cigarettes, no exposure to passive smoking: <span>Just a fresh, lingering after taste.</span></p>
             </div>
         </section>
-
-        <section class="video">
+        <!-- LAPTOP VIEW -->
+        <section class="d-none d-sm-block video">
             <video autoplay muted>
                 <source src="images/hand02_Size.mp4" type="video/mp4">
             </video>
         </section>
+        <!-- MOBILE VIEW -->
+        <section class="d-block d-sm-none video">
+            <video autoplay muted>
+                <source src="images/mobile_hand_blue.mp4" type="video/mp4">
+            </video>
+        </section>
 
-        <section class="d-none d-sm-block items">
-            <div class="col-12 col-lg-9 mx-auto">
+        <!-- LAPTOP VIEW -->
+        <section class="d-none d-lg-block items">
+            <div class="col-lg-9 mx-auto">
                 <div class="row">
-                    <div class="col-12 col-lg-3 items-block">
+                    <div class="col-lg-3 items-block">
                         <div class="col-12 mv_fade_in u-fade-type-down js-scroll-trigger">
                             <img src="images/icons/packaging01.png">
                             <div class="item-box">
@@ -111,7 +129,7 @@
                             </div>                            
                         </div>
                     </div>
-                    <div class="col-12 col-lg-3 items-block">
+                    <div class="col-lg-3 items-block">
                         <div class="col-12 mv_fade_in u-fade-type-down js-scroll-trigger">
                             <img src="images/icons/quality01.png">
                             <div class="item-box">
@@ -124,7 +142,7 @@
                             </div>                            
                         </div>
                     </div>
-                    <div class="col-12 col-lg-3 items-block">
+                    <div class="col-lg-3 items-block">
                         <div class="col-12 mv_fade_in u-fade-type-down js-scroll-trigger">
                             <img src="images/icons/blending01.png">
                             <div class="item-box">
@@ -136,7 +154,7 @@
                             </div>                            
                         </div>
                     </div>
-                    <div class="col-12 col-lg-3 items-block">
+                    <div class="col-lg-3 items-block">
                         <div class="col-12 mv_fade_in u-fade-type-down js-scroll-trigger">
                             <img src="images/icons/automation01.png">
                             <div class="item-box" style="border-right: 0px solid #cfc7c0;">
@@ -152,10 +170,11 @@
             </div>
         </section>
 
+        <!-- MOBILE VIEW -->
         <section class="d-block d-sm-none items">
-            <div class="col-12 col-lg-9 mx-auto">
+            <div class="col-12 mx-auto">
                 <div class="row">
-                    <div class="col-12 col-lg-3 items-block">
+                    <div class="col-12 items-block">
                         <div class="col-12 mv_fade_in u-fade-type-down js-scroll-trigger">
                             <img src="images/icons/packaging01.png">
                             <div class="item-box">
@@ -167,7 +186,7 @@
                             </div>                            
                         </div>
                     </div>
-                    <div class="col-12 col-lg-3 items-block">
+                    <div class="col-12 items-block">
                         <div class="col-12 mv_fade_in u-fade-type-down js-scroll-trigger">
                             <img src="images/icons/quality01.png">
                             <div class="item-box">
@@ -180,7 +199,7 @@
                             </div>                            
                         </div>
                     </div>
-                    <div class="col-12 col-lg-3 items-block">
+                    <div class="col-12 items-block">
                         <div class="col-12 mv_fade_in u-fade-type-down js-scroll-trigger">
                             <img src="images/icons/blending01.png">
                             <div class="item-box">
@@ -192,7 +211,7 @@
                             </div>                            
                         </div>
                     </div>
-                    <div class="col-12 col-lg-3 items-block">
+                    <div class="col-12 items-block">
                         <div class="col-12 mv_fade_in u-fade-type-down js-scroll-trigger">
                             <img src="images/icons/automation01.png">
                             <div class="item-box" style="border-right: 0px solid #cfc7c0;">
@@ -221,7 +240,7 @@
                                 <div class="col-8">
                                     <p>Cool Lip Filter Tobacco Weight</p>
                                     <div class="progress">
-                                        <div class="progress-bar js-scroll-trigger-progress" role="progressbar" style="width: 85%; background-color: #073582;" data-aos="fade-right" data-aos-delay="10" data-aos-duration="3000"></div>
+                                        <div class="progress-bar js-scroll-trigger-progress" role="progressbar" style="width: 85%; background-color: #073582;" data-aos-delay="10" data-aos-duration="3000"></div>
                                       </div>
                                 </div>
                                 <div class="col-4 right-product">
@@ -232,7 +251,7 @@
                                 <div class="col-8">
                                     <p>Per pouch</p>
                                     <div class="progress">
-                                        <div class="progress-bar js-scroll-trigger-progress" role="progressbar" style="width: 78%; background-color: #3FBEE7;" data-aos="fade-right" data-aos-delay="10" data-aos-duration="3000"></div>
+                                        <div class="progress-bar js-scroll-trigger-progress" role="progressbar" style="width: 78%; background-color: #3FBEE7;" data-aos-delay="10" data-aos-duration="3000"></div>
                                       </div>
                                 </div>
                                 <div class="col-4 right-product">
@@ -243,7 +262,7 @@
                                 <div class="col-8">
                                     <p>Pack of</p>
                                     <div class="progress">
-                                        <div class="progress-bar js-scroll-trigger-progress" role="progressbar" style="width: 55%; background-color: #c1c7cb;" data-aos="fade-right" data-aos-delay="10" data-aos-duration="3000"></div>
+                                        <div class="progress-bar js-scroll-trigger-progress" role="progressbar" style="width: 55%; background-color: #c1c7cb;" data-aos-delay="10" data-aos-duration="3000"></div>
                                       </div>
                                 </div>
                                 <div class="col-4 right-product">
@@ -267,7 +286,7 @@
                                 <div class="col-8">
                                     <p>Cool Lip Filter Tobacco Weight</p>
                                     <div class="progress">
-                                        <div class="progress-bar js-scroll-trigger-progress" role="progressbar" style="width: 90%; background-color: #073582;" data-aos="fade-right" data-aos-delay="10" data-aos-duration="3000"></div>
+                                        <div class="progress-bar js-scroll-trigger-progress" role="progressbar" style="width: 90%; background-color: #073582;" data-aos-delay="10" data-aos-duration="3000"></div>
                                       </div>
                                 </div>
                                 <div class="col-4 right-product">
@@ -278,7 +297,7 @@
                                 <div class="col-8">
                                     <p>Per pouch</p>
                                     <div class="progress">
-                                        <div class="progress-bar js-scroll-trigger-progress" role="progressbar" style="width: 78%; background-color: #3FBEE7;" data-aos="fade-right" data-aos-delay="10" data-aos-duration="3000"></div>
+                                        <div class="progress-bar js-scroll-trigger-progress" role="progressbar" style="width: 78%; background-color: #3FBEE7;" data-aos-delay="10" data-aos-duration="3000"></div>
                                       </div>
                                 </div>
                                 <div class="col-4 right-product">
@@ -289,7 +308,7 @@
                                 <div class="col-8">
                                     <p>Pack of</p>
                                     <div class="progress">
-                                        <div class="progress-bar js-scroll-trigger-progress" role="progressbar" style="width: 58%; background-color: #c1c7cb;" data-aos="fade-right" data-aos-delay="10" data-aos-duration="3000"></div>
+                                        <div class="progress-bar js-scroll-trigger-progress" role="progressbar" style="width: 58%; background-color: #c1c7cb;" data-aos-delay="10" data-aos-duration="3000"></div>
                                       </div>
                                 </div>
                                 <div class="col-4 right-product">
@@ -347,8 +366,15 @@
             </div>
         </section>
 
-        <section class="banner-image">
+        <!-- LAPTOP VIEW -->
+        <section class="d-none d-sm-block banner-image">
             <img src="images/crowd-banner01.png">
+            <a href="#">Know More</a>
+        </section>
+
+        <!-- MOBILE VIEW -->
+        <section class="d-block d-sm-none banner-image">
+            <img src="images/mobile_01.jpg">
             <a href="#">Know More</a>
         </section>
 
@@ -431,8 +457,10 @@ function checkScroll() {
 window.addEventListener('scroll', checkScroll, false);
 window.addEventListener('resize', checkScroll, false);
 </script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.6.0/polyfill.min.js" crossorigin="anonymous"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=Object.assign%2CElement.prototype.append%2CNodeList.prototype.forEach%2CCustomEvent%2Csmoothscroll" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 <script src='js/fade.js'></script>
+<script src="js/scroll.js"></script>
 </body>
 </html>
