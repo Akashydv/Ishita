@@ -1,38 +1,77 @@
+.u-fade-type-left{
+    transform: translateX(-100px);
+    opacity: 0;
+}
+.u-fade-type-left.is-active{
+    transition: 2.3s;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
+.u-fade-type-right{
+    transform: translateX(100px);
+    opacity: 0;
+}
+.u-fade-type-right.is-active{
+    transition: 2.3s;
+    transform: translateX(0);
+    opacity: 1;
+}
+
 
 .u-fade-type-down{
     opacity: 0;
 }
 .u-fade-type-down.is-active{
     opacity: 1;
-    animation: bounce 2.3s alternate;
+    animation: bounce 1.5s linear;
 }
 .is-progress{
     animation: progress 2s linear;
 }
 @keyframes progress {
-    0%{
-        width: 100%;
-    }
-    25%{
-        width: 100%;
-    }
-    50%{
-        width: 50%;
-    }
-    
+    0%{width: 100%;}
+    25%{width: 100%;}
+    50%{width: 50%;}
 }
 
 @keyframes bounce {
-    0% {
-        transform: translateY(200px);
-        opacity: 0;
-      }
-      90%{
-        transform: translateY(-5px);
-        opacity: 1;
-      }
-      100%{
-        transform: translateY(0px);
-        opacity: 1;
-      }
+    0% {transform: translateY(100px); opacity: 0;}
+      90%{transform: translateY(-5px); opacity: 1;}
+      100%{transform: translateY(0px); opacity: 1;}
 }
+.scroller {
+    height: 1.2em;
+    line-height: 1.2em;
+    position: relative;
+    overflow: hidden;
+    width: 32vw;
+  }
+.scroller > span {
+    position: absolute;
+    top: 0;
+    left: 8vw;
+    animation: slide 10s infinite;
+    font-weight: bold;
+  }
+
+  @keyframes slide {
+    0% {
+      top: 0;
+    }
+    25% {
+      top: -1.2em;
+    }
+    50% {
+      top: -2.4em;
+    }
+    75% {
+      top: -3.6em;
+    }
+  }
+  @media screen and (min-width: 1920px){
+      .scroller span{
+          left: 5vw !important;
+      }
+  }

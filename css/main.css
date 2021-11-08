@@ -203,6 +203,12 @@
     padding: 7vw 0vw 9vw;
     background-color: #070748;
 }
+.sign-in .text-wrapper{
+    overflow: hidden;
+}
+.sign-in .sign_in_heading{
+    transform-origin: 50% 100%;
+}
 .sign-in h1{
     text-align: center;
     color: white;
@@ -312,6 +318,23 @@
   .tobacco{
       padding: 5vw 0vw 6vw;
       background-color: rgba(236, 239, 240, 1);
+  }
+  .ml6 {
+    position: relative;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+  }
+  .ml9 .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
   }
   .tobacco h3{
       color: #073582;
