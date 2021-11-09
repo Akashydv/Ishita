@@ -37,7 +37,7 @@
 }
 
 @keyframes bounce {
-    0% {transform: translateY(57px); opacity: 0;}
+    0% {transform: translateY(70px); opacity: 0;}
       85%{transform: translateY(-5px); opacity: 0.2;}
       100%{transform: translateY(0px); opacity: 1;}
 }
