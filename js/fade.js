@@ -63,23 +63,3 @@ $(function () {
     $(window).trigger('scroll');
   });
 
-  $(function () {
-    if ($('.read-more').length) {
-        scrollAnimation();
-    }
-  
-    function scrollAnimation() {
-        $(window).scroll(function () {
-            $(".read-more").each(function () {
-                let position = $(this).offset().top,
-                    scroll = $(window).scrollTop(),
-                    windowHeight = $(window).height();
-  
-                if (scroll > position - windowHeight + 80) {
-                    $(this).addClass('glow-up');
-                }
-            });
-        });
-    }
-    $(window).trigger('scroll');
-  });
