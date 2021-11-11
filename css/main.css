@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0; 
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 @font-face {
     font-family: dinpro;
@@ -11,7 +12,6 @@
     font-family: rupee;
     src: url(../font/Rupee_Foradian.ttf);
 }
-
 .mix{
   mix-blend-mode: lighten;
 }
@@ -50,6 +50,7 @@
 
 .banner{
     background-color: #070748;
+    scroll-snap-align: start;
 }
 .banner video{
     width: 100%;
@@ -57,6 +58,7 @@
 
 
 .video-text{
+    scroll-snap-align: start;
     background-color: #070748;
     padding: 4vw 0vw;
 }
@@ -85,6 +87,7 @@
     text-align: center;
     color: white;
     padding: 4vw 0vw;
+    scroll-snap-align: start;
 }
 .ml2 {
     font-weight: 900;
@@ -118,6 +121,7 @@
 }
 .video video{
     width: 100%;
+    scroll-snap-align: start;
 }
 
 
@@ -125,6 +129,7 @@
     background-color: rgba(236, 239, 240,1);
     padding: 5vw 0vw 7vw;
     height: auto;
+    scroll-snap-align: start;
 }
 
 .items .item-box{
