@@ -413,7 +413,7 @@
         </section>
 
         <!-- LAPTOP VIEW -->
-        <section class="d-none d-sm-block banner-image parallax-bg">
+        <section class="d-none d-sm-block banner-image">
             <img src="images/crowd-banner01.png">
             <a href="#">Know More</a>
         </section>
@@ -469,8 +469,13 @@
             </div>
         </section>
     </div>
+    <script src="js/SectionScroll.js"></script>
+<script>
+    $(document).ready(() => {
+        SectionScroll("article", "section", 1000);
+    });
+</script>
 
-    
 <script>
     AOS.init();
 </script>
